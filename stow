@@ -1,0 +1,4 @@
+stow -V
+sudo rm /usr/share/X11/xkb/symbols/us
+sudo rm /usr/share/X11/xkb/rules/evdev.xml
+sudo stow -t /usr usr
